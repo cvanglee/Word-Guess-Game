@@ -79,14 +79,12 @@ function endRound(){
 
     if (blanksAndLetters.toString() === pWordLetters.toString()){
         wins++;
-        setTimeout(beginGame,500);
         alert("YOU WIN!");
         document.getElementById("wins").innerHTML = wins;
-        // beginGame();    
+        beginGame();    
     }
     else if (guessLeft == 0){
         losses++;
-        setTimeout(beginGame,500);
         alert ("You Loser")
         beginGame();
     }

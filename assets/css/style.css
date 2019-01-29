@@ -1,0 +1,44 @@
+body{
+
+    padding-left: 100px;
+    margin-left: 100px;
+}
+.bannerForm {
+    color: white;
+    font-family: 'Fontdiner Swanky';
+    padding-top: 10px;
+}
+#container {
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+div {
+    text-align: center;
+  }
+#constellation-image img{
+    width: 400px;
+    height: 300px;
+    margin-left: 450px;
+}
+#game {
+    float: left;
+    width: 900px;
+    height: 750px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+h2, p {
+    text-align: center;
+    margin-left: 450px;
+}
+#word-blanks, #wrong-guesses, #guesses-left {
+    text-align: center;
+    margin-left: 450px;
+}
+#winBanner{
+visibility: hidden;
+}
+#loserBanner{
+visibility: hidden;
+}

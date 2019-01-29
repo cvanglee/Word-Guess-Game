@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Constellation Word Guess</title>
+    <link href='https://fonts.googleapis.com/css?family=Fontdiner Swanky' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" /> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ 
+</head>
+<body style = "background-image: url('assets/images/summer-milky-way.jpg');">
+        <div id="banner">
+                <h1 class="bannerForm">CONSTELLATION WORD GUESS</h1>
+              </div>
+          
+              <div id="container">
+                <div id="winBanner">YOU WIN!</div>
+                <div id="loserBanner">You Loser!</div>
+                <div id="constellation-image"><img src="assets/images/constellations_soros.jpg" alt="hangman"></div>
+                <div id="game">
+                  <p>Press any key to get started!</p>
+                  <div>
+                    <h2 class="title-line">Wins</h2>
+                    <div id="wins"></div>
+                  </div>
+                  <div id="word">
+                    <h2 class="title-line">What constellation am I?</h2>
+                    <div id="word-blanks"></div>
+                  </div>
+                  <div id="guesses-remaining">
+                    <h2 class="title-line">Guesses Remaining</h2>
+                    <div id="guesses-left"></div>
+                  </div>
+                  <div id="guessed-letters">
+                    <h2 class="title-line">Letters Guessed</h2>
+                    <div id="wrong-guesses"></div>
+                  </div>
+                </div>
+              </div>
+<script src="assets/javascript/game.js"></script>   
+</body>
+</html>
